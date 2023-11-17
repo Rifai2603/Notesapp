@@ -21,7 +21,7 @@
      src="app/src/main/play/listings/en-US/graphics/phone-screenshots/2.png"
      width="40%"/>
 
-#Authors
+# Authors
 Ahmad Rifai
 BM-5B
 2103421003
