@@ -22,4 +22,4 @@
      width="40%"/>
 
 # Authors
-Ahmad Rifai BM-5B 2103421003.  Muhammad Rizky Ramadhan BM-5B 2103421018
+Ahmad Rifai BM-5B 2103421003 <br> Muhammad Rizky Ramadhan BM-5B 2103421018
