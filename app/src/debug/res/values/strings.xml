@@ -1,0 +1,8 @@
+
+
+<resources>
+
+    <!-- So that I can differentiate the app I use and the app I'm testing on my phone! -->
+    <string name="app_name_short">Notes (debug)</string>
+
+</resources>

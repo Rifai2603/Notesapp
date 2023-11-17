@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- This manifest will be merged with the one in main source set. -->
+<manifest
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="ProtectedPermissions"
+    >
+
+    <!-- Used for taking screenshots, for changing locale at runtime. -->
+    <uses-permission android:name="android.permission.CHANGE_CONFIGURATION" />
+
+    <!-- Used to change status bar appearance -->
+    <uses-permission android:name="android.permission.DUMP" />
+
+</manifest>

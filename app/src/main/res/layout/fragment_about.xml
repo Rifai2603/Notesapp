@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fragment_about_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:fitsSystemWindows="true"
+    android:background="?colorSurface"
+    >
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/toolbar_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:fitsSystemWindows="true"
+        app:layout_behavior="com.maltaisn.notes.ui.common.AppBarLayoutWithPaddingBehavior"
+        app:liftOnScroll="true"
+        app:liftOnScrollTargetViewId="@id/recycler_view"
+        >
+
+        <com.google.android.material.appbar.MaterialToolbar
+            android:id="@+id/toolbar"
+            style="?toolbarStyle"
+            android:layout_width="match_parent"
+            android:layout_height="?actionBarSize"
+            android:contentDescription="@string/content_descrp_back"
+            app:navigationIcon="@drawable/ic_arrow_start"
+            app:title="@string/action_nama"
+            app:titleTextColor="?colorControlNormal"
+            />
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fitsSystemWindows="false"
+        app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior">
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingTop="16dp"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:paddingBottom="16dp"
+        app:layout_anchor="@+id/constraintLayout"
+        app:layout_anchorGravity="center">
+
+        <TextView
+            android:id="@+id/header_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:paddingStart="12dp"
+            android:paddingTop="20dp"
+            android:paddingEnd="8dp"
+            android:paddingBottom="8dp"
+            android:text="@string/app_name"
+            android:textSize="28sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="sans-serif"
+            android:justificationMode="inter_word"
+            android:paddingStart="8dp"
+            android:paddingEnd="8dp"
+            android:paddingBottom="8dp"
+            android:text="Selamat datang di Notes 2R, aplikasi yang memudahkan Anda untuk mengelola catatan sehari-hari dengan sederhana dan efisien. Notes dirancang untuk memberikan pengalaman pengguna yang fungsional dan personal dalam mencatat ide, daftar, atau pemikiran Anda."
+            android:textSize="16sp" />
+
+        <!-- Profil Ahmad Rifai -->
+        <ImageView
+            android:layout_width="189dp"
+            android:layout_height="195dp"
+            android:layout_gravity="center"
+            android:paddingTop="16dp"
+            android:src="@drawable/ahmad_rifai_2"/>
+
+        <TextView
+            android:id="@+id/content_rifai"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="sans-serif"
+            android:justificationMode="inter_word"
+            android:paddingStart="8dp"
+            android:paddingTop="8dp"
+            android:paddingEnd="2dp"
+            android:text="Ahmad Rifai"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/content_rifai_nim"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="sans-serif"
+            android:justificationMode="inter_word"
+            android:paddingStart="8dp"
+            android:paddingEnd="8dp"
+            android:text="2103421003"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/content_rifai_kelas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="sans-serif"
+            android:justificationMode="inter_word"
+            android:paddingStart="8dp"
+            android:paddingEnd="8dp"
+            android:paddingBottom="16dp"
+            android:text="Broadband Multimedia 5B"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="13dp"
+            android:layout_gravity="center"
+            android:background="@drawable/border">
+        </TextView>
+
+        <!-- Profil Rizky Ramadhan -->
+        <ImageView
+            android:layout_width="189dp"
+            android:layout_height="195dp"
+            android:layout_gravity="center"
+            android:paddingTop="16dp"
+            android:src="@drawable/m_rizky" />
+
+        <TextView
+            android:id="@+id/content_didan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:paddingStart="8dp"
+            android:paddingTop="8dp"
+            android:paddingEnd="8dp"
+            android:paddingBottom="8dp"
+            android:text="Muhammad Rizky Ramadhan"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/content_didan_nim"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="sans-serif"
+            android:justificationMode="inter_word"
+            android:paddingStart="8dp"
+            android:paddingEnd="8dp"
+            android:text="2103421018"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/content_didan_kelas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="sans-serif"
+            android:justificationMode="inter_word"
+            android:paddingStart="8dp"
+            android:paddingEnd="8dp"
+            android:paddingBottom="8dp"
+            android:text="Broadband Multimedia 5B"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
