@@ -9,8 +9,6 @@
 - Reminders (including recurring).
 - Searching notes.
 - Light and dark theme support.
-- Basic import and export.
-- Somewhat customizable interface.
 
 ### Screenshots
 
