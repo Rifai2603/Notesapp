@@ -1,6 +1,6 @@
 # Notes APP 2R
 
-![App icon](app/src/main/res/drawable/logo_biru.pngpng)
+![App icon](app/src/main/res/drawable/logo_biru.png)
 
 #### Features
 - Text and list notes.
