@@ -14,8 +14,9 @@
 
 ### Screenshots
 
-<img alt="Screenshot 1"
+<img alt="awal"
      src="app/src/main/play/listings/en-US/graphics/phone-screenshots/awal.png"
-     width="40%"/>  <img alt="Screenshot 2"
+     width="40%"/>  
+<img alt="splashscreen"
      src="app/src/main/play/listings/en-US/graphics/phone-screenshots/splashscreen.png"
      width="40%"/>
