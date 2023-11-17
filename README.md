@@ -21,10 +21,10 @@
      src="app/src/main/play/listings/en-US/graphics/phone-screenshots/2.png"
      width="40%"/>
 
-# Ahmad Rifai
+#Authors
+Ahmad Rifai
 BM-5B
 2103421003
-
-# Muhammad Rizky Ramadhan
+Muhammad Rizky Ramadhan
 BM-5B
 2103421018
