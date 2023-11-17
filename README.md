@@ -1,18 +1,6 @@
-# Another notes app
+# Notes APP 2R
 
-![App icon](app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png)
-
-*The app is not actively developed since I have deviated from Android development in recent years.
-I'll fix critical bugs, but features may not be implemented before a very long time, if ever. 
-Expect one release per year. I will accept and review pull requests though.*
-
-This is a simple Android app for taking notes, like there have been tens of thousands before.
-The app has Material UI, was built following MVVM architecture, uses Dagger and some Jetpack
-components. Download is available on:
-
-- [F-Droid](https://f-droid.org/en/packages/com.maltaisn.notes.sync/)
-- [Direct APK download](https://github.com/maltaisn/another-notes-app/releases/latest)
-- [Google Play Store](https://play.google.com/store/apps/details?id=com.maltaisn.notes.sync)
+![App icon](app/src/main/res/drawable/logo_biru.pngpng)
 
 #### Features
 - Text and list notes.
@@ -27,7 +15,7 @@ components. Download is available on:
 ### Screenshots
 
 <img alt="Screenshot 1"
-     src="app/src/main/play/listings/en-US/graphics/phone-screenshots/1.png"
+     src="app/src/main/play/listings/en-US/graphics/phone-screenshots/awal.png"
      width="40%"/>  <img alt="Screenshot 2"
      src="app/src/main/play/listings/en-US/graphics/phone-screenshots/2.png"
      width="40%"/>
