@@ -20,9 +20,11 @@
      src="app/src/main/play/listings/en-US/graphics/phone-screenshots/splashscreen.png"
      width="40%"/>
 
-Ahmad Rifai
-BM - 5B
-2103421003
+### Authors
+
+Ahmad Rifai 
+BM - 5B 
+2103421003 <br>
 
 Muhammad Rizky Ramadhan
 BM - 5B
