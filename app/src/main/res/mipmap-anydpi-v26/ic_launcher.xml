@@ -2,6 +2,6 @@
 
 <adaptive-icon
     xmlns:android="http://schemas.android.com/apk/res/android">
-    <foreground android:drawable="@mipmap/ic_launcher_foreground" />
+    <foreground android:drawable="@drawable/logo_biru" />
     <monochrome android:drawable="@drawable/logo_biru"/>
 </adaptive-icon>
