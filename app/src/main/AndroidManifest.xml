@@ -10,7 +10,7 @@
     <application
         android:name=".App"
         android:allowBackup="@bool/allow_backup"
-        android:icon="@android:color/transparent"
+        android:icon="@drawable/logo_biru"
         android:label="@string/app_name"
         android:roundIcon="@android:color/transparent"
         android:supportsRtl="true"
