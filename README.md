@@ -15,9 +15,9 @@
 ### Screenshots
 
 <img alt="awal"
-     src="app/src/main/play/listings/en-US/graphics/phone-screenshots/awal.png"
+     src="app/src/main/play/listings/en-US/graphics/phone-screenshots/1.png"
      width="40%"/>  <img alt="splashscreen"
-     src="app/src/main/play/listings/en-US/graphics/phone-screenshots/splashscreen.png"
+     src="app/src/main/play/listings/en-US/graphics/phone-screenshots/2.png"
      width="40%"/>
 
 ### Authors
